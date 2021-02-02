@@ -18,20 +18,29 @@ export const Register = () => {
     </div>
   </div>
   `;
+  let db = firebase.firestore();
+ 
 
-    rootElement.querySelector('#button-register').addEventListener('click', (e) => {
-        const email = rootElement.querySelector('#email').value;
-        const password = rootElement.querySelector('#password').value;
-        e.preventDefault();
-        signUp(email, password)
-            .then((userUpdate) => {
-                saveUser(userUpdate.user, email);
-                alert('Conta criada com sucesso');
-                onNavigate('/allmovies');
-            })
-            .catch(() => {
-                alert('Falha ao realizar o cadastro');
-            });
-    });
-    return rootElement;
+  rootElement.querySelector('#button-register').addEventListener('click', (e) => {
+    const email = rootElement.querySelector('#email').value;
+    const password = rootElement.querySelector('#password').value;
+    e.preventDefault();
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+      .then(() => {
+        const userId = firebase.auth().currentUser.uid
+        console.log(userId)
+        db.collection("users").doc(userId).set({
+          email: email,
+          id: userId,          
+          listToWatch:[]
+       })
+        
+        alert('Conta criada com sucesso');
+        onNavigate('/allmovies');
+      })
+      .catch(() => {
+        alert('Falha ao realizar o cadastro');
+      });
+  });
+  return rootElement;
 };
