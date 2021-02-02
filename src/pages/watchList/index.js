@@ -10,12 +10,25 @@ export const WatchList = () => {
 
   const contentElement = () => {
     const boxElement = document.createElement('div');
-    boxElement.innerHTML = `
+    let movieWatched = "";
+    boxElement.innerHTML = 
+    movieWatched +=
+    `
   <div class="backgroundPoster" id="">
     <img class="poster" src="" alt="Capa do filme ..."/>
     </div>
-  </div>
+  </div> 
   `;
+  const userId = firebase.auth().currentUser.uid;
+  const db = firebase.firestore();
+  var watchedList = db.collection('users').doc(userId);
+    watchedList.get({
+    listwatched: firebase.firestore.FieldValue
+  }).then(
+        console.log("Document data:", watchedList))
+    .catch(function(error) {
+    console.log("Error getting document:", error);
+});
     return boxElement
   }
   rootElement.appendChild(contentElement())
