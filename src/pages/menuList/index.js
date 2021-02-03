@@ -13,7 +13,7 @@ export const MenuList = () => {
     <div class='menuListas'> 
       <div class='lista slider'>
         <figure>
-          <img src='images/Cinebg.jpg'>
+          <img src='images/Cinebg.jpeg'>
         </figure>
         <div class='menu-position'>
           <p class='text-watched'>FAÇA UMA LISTA COMENTADA DE FILMES QUE JÁ ASSISTIU E SAIBA SEMPRE QUAIS FILMES MAIS TE AGRADAM.</p>
@@ -22,7 +22,7 @@ export const MenuList = () => {
       </div>
       <div class='lista slider'>
         <figure>
-          <img class = "background-menuList" src='images/Cinebg.jpg'>
+          <img class = "background-menuList" src='images/Cinebg.jpeg'>
         </figure>
         <div class='menu-position'> 
           <p class='text-toWatch'>FAÇA UMA LISTA DE FILMES QUE DESEJA ASSISTIR E SAIBA SEMPRE QUAIS FILMES ESCOLHER.</p>
