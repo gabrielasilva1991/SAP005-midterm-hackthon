@@ -33,7 +33,7 @@ body {
   object-fit: cover;
 }
 
-.button-start, .button-login, .button-google, .button-signOut, .btnWatchList, .btnToWatchList {
+.button-start, .button-login, .button-google, .button-signOut, .btnWatchList, .btnToWatchList, .button {
   background-color: #000000;
   color: white;
   box-shadow: 4px 4px 4px #000000;
@@ -45,12 +45,14 @@ body {
   height: 35px;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000000;
-  margin: 20px 0
+  margin: 20px 0;
+  cursor: pointer;
 }
 
 .button-start, .button-signOut {
   border-style: solid;
   border-color: white;
+  cursor: pointer;
 }
 
 .or {
@@ -88,6 +90,7 @@ h1.text-banner-title, .text-banner-main, .text-banner, .text-watched, .text-toWa
 
 .text-watched, .text-toWatch {
   margin: 0;
+  
 }
 
 .text-banner {
