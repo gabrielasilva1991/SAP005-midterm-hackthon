@@ -53,6 +53,10 @@ body {
   cursor: pointer;
 }
 
+img.login-icon {
+  margin-top: 2rem;
+}
+
 .button-start, .button-signOut {
   border-style: solid;
   border-color: white;
@@ -93,8 +97,7 @@ h1.text-banner-title, .text-banner-main, .text-banner, .text-watched, .text-toWa
 }
 
 .text-watched, .text-toWatch {
-  margin: 0;
-  
+  margin: 0; 
 }
 
 .text-banner {
