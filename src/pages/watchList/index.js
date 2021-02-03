@@ -32,7 +32,7 @@ export const WatchList = () => {
           <div class = "backgroundPoster" id = "${listwatched}">
             <img class = "poster"  src = "https://image.tmdb.org/t/p/original/${listwatched}">
             <div class = "btnAdd">
-              <button id ="delet">Apagar</button>
+              <button class='button' id ="delet">Apagar</button>
             </div>
           </div>
         </div>`;
