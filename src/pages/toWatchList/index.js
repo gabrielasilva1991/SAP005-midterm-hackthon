@@ -32,8 +32,8 @@ export const ToWatchList = () => {
           <div class = "backgroundPoster" id = "${listToWatch}">
             <img class = "poster"  src = "https://image.tmdb.org/t/p/original/${listToWatch}">
             <div class = "btnAdd">
-              <button id ="delet">Apagar</button>
-              <button id ="watched">+ASSISTIDO</button>
+              <button class='button' id ="delet">Apagar</button>
+              <button class='button' id ="watched">+ASSISTIDO</button>
             </div>
           </div>`;
 

@@ -49,6 +49,10 @@ body {
   cursor: pointer;
 }
 
+.colorText, .create-account {
+  cursor: pointer;
+}
+
 .button-start, .button-signOut {
   border-style: solid;
   border-color: white;

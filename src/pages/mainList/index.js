@@ -25,8 +25,8 @@ export const MainList = () => {
         <div class = "backgroundPoster" id = "${img.poster_path}">
           <img class = "poster"  src = "https://image.tmdb.org/t/p/original/${img.poster_path}">
           <div class = "btnAdd">
-            <button id ="watched">+ASSISTIDO</button>
-            <button id ="toWatch">+ASSISTIR</button>
+            <button class='button' id ="watched">+ASSISTIDO</button>
+            <button class='button' id ="toWatch">+ASSISTIR</button>
           </div>
         </div>`;
       });
