@@ -5,7 +5,7 @@ export const MainPage = () => {
   rootElement.innerHTML = `
     <div class='slider'>
         <figure>
-          <img src='images/Cinelist.bg.png'>
+          <img src='images/Cinebg.jpg'>
         </figure>
         <div class='banner'>
           <img src='images/Cinelist.png'>
