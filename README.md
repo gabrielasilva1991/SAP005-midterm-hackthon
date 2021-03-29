@@ -1,4 +1,4 @@
-# Cinelist
+# :movie_camera: Cinelist 
 
 Acesse a aplicação aqui: https://midterm-hackthon.web.app/
 
@@ -15,7 +15,7 @@ Acesse a aplicação aqui: https://midterm-hackthon.web.app/
 
 ---
 
-## 1. Apresentação
+## 1. Apresentação :eight_spoked_asterisk:
 
 Com o surgimento de plataformas entreterimento por streaming como Netflix,
 Amazon Prime Video e Disney +, a experiêcia de usuário foi modificada.
@@ -24,7 +24,7 @@ Muitas vezes o usuário fica mais tempo procurando o que assistir do que de fato
 Pensando na otimização do tempo foi desenvolvida a aplicação `Cinelist`para auxiliar os cinéfilos a guardar os filmes que já assistiu,
 que gostariam de assistir e que tem interesse em listas. 
 
-## 2. Desenvolvimento
+## 2. Desenvolvimento :memo:
 
 Foi desenvolvido em forma de Hackathon em um squad com 7 integrantes.
 
@@ -40,17 +40,15 @@ Foi realizada pesquisas para identificar o tipo de entretenimento mais utilizado
 
 A partir da pesquisa foi determinado qual seria o produto e feito o protótipo utilizando o _figma_.
 
-![](/src/image/layout01.jpeg)
+![](/src/images/layout01.jpeg)
 
-![](/src/image/layout02.jpeg)
+![](/src/images/layout02.jpeg)
 
 ### Protótipo Final :paperclip:
 
-Durante a implantação algumas melhorias foram feitas para melhorar a experiência dos usuários, chegando na página final.
+![](/src/images/gif.gif)
 
-![](/src/image/gif.gif)
-
-## 4. Bibliotecas e Ferramentas Utilizadas
+## 4. Bibliotecas e Ferramentas Utilizadas :open_file_folder::pushpin:
 
 - API
 - Figma
@@ -59,6 +57,3 @@ Durante a implantação algumas melhorias foram feitas para melhorar a experiên
 - GitHub
 - Trabalho em equipe.
 - Priorização de atividades
-
-
-
