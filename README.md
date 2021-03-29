@@ -40,13 +40,13 @@ Foi realizada pesquisas para identificar o tipo de entretenimento mais utilizado
 
 A partir da pesquisa foi determinado qual seria o produto e feito o protótipo utilizando o _figma_.
 
-![](/src/images/layout01.jpeg)
+![](/src/images/layout01.jpg)
 
-![](/src/images/layout02.jpeg)
+![](/src/images/layout02.jpg)
 
 ### Protótipo Final :paperclip:
 
-![](/src/images/gif.gif)
+![](/src/images/gif.mp4)
 
 ## 4. Bibliotecas e Ferramentas Utilizadas :open_file_folder::pushpin:
 
