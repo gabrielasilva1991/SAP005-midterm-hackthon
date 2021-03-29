@@ -1,78 +1,64 @@
-# Midterm Hackathon
+# Cinelist
+
+Acesse a aplicação aqui: https://midterm-hackthon.web.app/
+
+### Usuário para teste :mag_right:
+
+`cinelist@cinelist.com / Senha: cinelist`
 
 ## Índice
 
-- [Prefácio](#prefácio)
-- [Resumo do projeto](#resumo-do-projeto)
-- [Considerações gerais](#considerações-gerais)
-- [Objetivos de aprendizagem](#objetivos-de-aprendizagem)
-- [Exemplo de projetos](#examplo-de-projetos)
-- [APIs](#apis)
-- [Entrega](#entrega)
-- [Dicas](#dicas)
+- [1. Apresentação](#1-apresentação)
+- [2. Desenvolvimento](#2-desenvolvimento)
+- [3. Interface de Usuário](#3-interface-de-usuário)
+- [4. Bibliotecas e Ferramentas Utilizadas](#4-bibliotecas-e-ferramentas-utilizadas)
 
 ---
 
-## Prefácio
+## 1. Apresentação
 
 Com o surgimento de plataformas entreterimento por streaming como Netflix,
-Amazon Prime Video e Disney +, assistir filmes de onde estiver, comendo o que quiser
-(sem ter que pagar o preço exorbitante da pipoca), parando o filme se for preciso, tendo acesso a
-uma quantidade gigante de files, etc. Mudou a experiêcia de usuário e modificou o mercado de filmes
-a um nível global.
+Amazon Prime Video e Disney +, a experiêcia de usuário foi modificada.
 
-![Pelis](https://i.giphy.com/media/3o6Ztl7RvfwCp9mqhW/source.gif)
+Muitas vezes o usuário fica mais tempo procurando o que assistir do que de fato assistindo alguma coisa.
+Pensando na otimização do tempo foi desenvolvida a aplicação `Cinelist`para auxiliar os cinéfilos a guardar os filmes que já assistiu,
+que gostariam de assistir e que tem interesse em listas. 
 
-## Resumo do projeto
+## 2. Desenvolvimento
 
-Esse projeto terá um forma de Hackathon, no qual vocês terão que criar
-um produto sobre entreterimento utilizando APIs. Esse produto será criado
-pelo squad durante os dias de Design Sprint e o desenvolvimento do dele
-deve ser feito duranto os dois dias de Hackathon.
+Foi desenvolvido em forma de Hackathon em um squad com 7 integrantes.
 
-## Considerações gerais
+O produto foi criado pensando em um MVP (Produto Viável Mínimo).
 
-- Esse projeto deve ser feito em squad
-- Utilizar uma API
-- Tempo para terminar o produto: 2 dias
+Em uma semana de design de sprint foi feito o planejamento de todas as etapas e funcionalidades e em dois dias de Hackathon foi o desenvolvimento do código.
 
-## Objetivos de aprendizagem
+## 3.Interface de Usuário :iphone::computer:
 
-- Enfrentar um desafio de curta duração que coloque em prático tudo
-  o foi aprendido até agora
-- Continuar desenvolvendo as suas habilidades de trabalho em equipe. Quanto
-  mais pessoas em uma equipe de trabalho, mais complexidade para: chegar
-  em um consenso, separar as tarefas, seguir um fluxo de trabalho, etc
-- [Requisições assíncronas - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+### Protótipo Inicial :paperclip:
 
-## Exemplo de projetos
+Foi realizada pesquisas para identificar o tipo de entretenimento mais utilizado.
 
-- Um grupo de fãs de Star Wars que querem ver os dados de todos os filmes da série
-- Um vídeo Pinterest youtube, onde os usuários 'pinean' vídeos
-- Um mapa com os eventos que estão acontecendo perto de você
+A partir da pesquisa foi determinado qual seria o produto e feito o protótipo utilizando o _figma_.
 
-## APIs
+![](/src/image/layout01.jpeg)
 
-- [Open Movies Database](http://www.omdbapi.com/)
-- [Spotify](https://developer.spotify.com/documentation/web-api/)
-- [Here Maps](https://developer.here.com/)
-- [Star Wars](https://swapi.dev/)
-- [You Tube](https://developers.google.com/youtube/v3)
-- [ESPN](http://www.espn.com/apis/devcenter/docs/)
-- [Mercado Livre](https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br)
+![](/src/image/layout02.jpeg)
 
-Essas APIs são apenas exemplos, você pode utilizar qualquer outra que fizer sentido
-para o projeto.
-[Aqui (lista 1)](https://apilist.fun/) e [aqui (lista 2)](https://github.com/public-apis/public-apis) você irá encontrar várias APIs públicas.
+### Protótipo Final :paperclip:
 
-## Entrega
+Durante a implantação algumas melhorias foram feitas para melhorar a experiência dos usuários, chegando na página final.
 
-- Repositório no Github
-- URL pública com o deploy do projeto
+![](/src/image/gif.gif)
 
-## Dicas
+## 4. Bibliotecas e Ferramentas Utilizadas
 
-- Organizem o tempo e prestem atenção no timebox
-- Priorizem as tarefas por feature e se organizem, pensem no MVP
-- Testem os deploys com antecedência
-- Implementem coisas pequenas
+- API
+- Figma
+- Trello
+- Firebase
+- GitHub
+- Trabalho em equipe.
+- Priorização de atividades
+
+
+
