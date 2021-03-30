@@ -46,7 +46,7 @@ A partir da pesquisa foi determinado qual seria o produto e feito o protótipo u
 
 ### Protótipo Final :paperclip:
 
-![](/src/images/gif240x370.gif)
+![](/src/images/gif300x462.gif)
 
 ## 4. Bibliotecas e Ferramentas Utilizadas :open_file_folder::pushpin:
 
